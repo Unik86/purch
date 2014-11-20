@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+.hdCont{
+	float: left;
+	height: 150px;
+	width: 33.33%;
+	min-width: 300px
+}
+.hdCont p{
+	font-size: 25pt;
+	line-height: 0.6;
+}
+.hdCont2{
+	margin: 30px auto;
+}
+label {
+	font-size: 18px;
+}
+#infoButton{
+	margin-top: 12px;
+}
+#head {
+	height: 170px;
+	width: max;
+	min-width: 1000px;
+	border-bottom: thin solid #6ea7d2;
+}
+#info {
+	height: 200px;
+	width: max;
+	margin: auto;
+	display: none;
+	background-color: #f5f9fd;
+	border-bottom: thin solid #6ea7d2;
+}
+#infoCont{
+	width: 1000px;
+	margin: auto;
+}
+.infoCont2{
+	height: 200px;
+	width: 200px;
+	float: left;
+}
+textarea {
+	height: 100px;
+	resize: none;
+}
+.pTable {
+	font-size: 25px;
+	min-width: 1000px;
+	margin-top: 40px;
+}
+#spinStorage, #spinClient {
+	width: 20px;
+}
+#tagStorage, #tagClient {
+	height: 25px;
+	margin-top: 5px;
+}  
+#bottom{
+	margin: auto;
+	width: 1000px;
+}
+#botContLeft{
+	float: left;
+}
+#botContCenter{
+	margin-left: 155px;
+	float: left;
+}
+#botContRight{
+	float: Right;
+}
+#textName{
+	margin-bottom: 10px;
+}
+.butDelSave{
+	font-size: 15px;
+	margin-bottom: 12px;
+}

@@ -1,4 +1,4 @@
-package purch.model.client.dao;
+package purch.model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,7 +12,7 @@ import java.util.ListIterator;
 
 import javax.sql.DataSource;
 
-import purch.model.client.Client;
+import purch.model.entity.Client;
 
 public class ClientDAOImp implements ClientDAO{
 	private DataSource dataSource;

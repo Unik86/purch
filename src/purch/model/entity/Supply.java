@@ -1,4 +1,4 @@
-package purch.model.supply;
+package purch.model.entity;
 
 public class Supply {
 	private int idSupply;

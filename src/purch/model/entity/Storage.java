@@ -1,4 +1,4 @@
-package purch.model.storage;
+package purch.model.entity;
 
 public class Storage {
 	private int idStorage;

@@ -1,4 +1,4 @@
-package purch.model.item;
+package purch.model.entity;
 
 public class Item {
 	private int idItem;

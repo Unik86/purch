@@ -1,8 +1,8 @@
-package purch.model.client.dao;
+package purch.model.dao;
 
 import java.util.List;
 
-import purch.model.client.Client;
+import purch.model.entity.Client;
 
 public interface ClientDAO {
 	public void insert(Client client);

@@ -1,4 +1,4 @@
-package purch.model.client;
+package purch.model.entity;
 
 public class Client {
 	private int idClient;

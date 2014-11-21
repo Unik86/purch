@@ -1,4 +1,4 @@
-package purch.model.orderitem;
+package purch.model.entity;
 
 import java.util.Date;
 

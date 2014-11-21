@@ -6,8 +6,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import purch.model.client.Client;
-import purch.model.client.dao.ClientDAO;
+import purch.model.dao.ClientDAO;
+import purch.model.entity.Client;
 
 public class TestClient {
 	@Test

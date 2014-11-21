@@ -6,8 +6,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import purch.model.storage.Storage;
-import purch.model.storage.dao.StorageDAO;
+import purch.model.dao.StorageDAO;
+import purch.model.entity.Storage;
 
 public class TestStorage {
 	@Test

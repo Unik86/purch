@@ -1,8 +1,8 @@
-package purch.model.storage.dao;
+package purch.model.dao;
 
 import java.util.List;
 
-import purch.model.storage.Storage;
+import purch.model.entity.Storage;
 
 public interface StorageDAO {
 	public void insert(Storage storage);

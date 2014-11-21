@@ -62,7 +62,7 @@ $(function(){
 	function loadClients(){
 		$.ajax({
 			type: 'GET',
-			url: 'getclients',		
+			url: 'getclients.html',	
 			success: function(data){
 				var obj = JSON.parse(data);
 				arrClient = obj.Clients;
@@ -91,7 +91,7 @@ $(function(){
 			labelName.text(ui.item.value);
 			$.ajax({
 				type: 'POST',
-				url: 'getinfoclient',
+				url: 'getinfoclient.html',
 				data: 'who=' + who + '&name=' + ui.item.value,
 				success: function(data){
 					var obj = JSON.parse(data);
@@ -119,7 +119,7 @@ $(function(){
 			labelName.text(ui.item.value);
 			$.ajax({
 				type: 'POST',
-				url: 'getinfoclient',
+				url: 'getinfoclient.html',
 				data: 'who=' + who + '&name=' + ui.item.value,
 				success: function(data){
 					var obj = JSON.parse(data);
@@ -177,7 +177,7 @@ $(function(){
 		if(yes){
 			$.ajax({
 				type: 'POST',
-				url: 'saveinfoclient',
+				url: 'saveinfoclient.html',
 				data: 'telSave=' + telText.val() + 
 					'&infoSave=' + infoText.val() + 
 					'&newPostSave=' + newPostText.val() + 
@@ -212,7 +212,7 @@ $(function(){
 		if(yes){
 			$.ajax({
 				type: 'POST',
-				url: 'deleteclient',
+				url: 'deleteclient.html',
 				data: '&name=' + labelName.text() + '&who=' + who,
 				success: function(data){
 					loadClients();

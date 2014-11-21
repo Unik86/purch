@@ -1,4 +1,4 @@
-package purch.model.storage.dao;
+package purch.model.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,7 +9,7 @@ import java.util.List;
 
 import javax.sql.DataSource;
 
-import purch.model.storage.Storage;
+import purch.model.entity.Storage;
 
 public class StorageDAOImp implements StorageDAO{
 	private DataSource dataSource;

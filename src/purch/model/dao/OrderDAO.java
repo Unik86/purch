@@ -1,4 +1,4 @@
-package purch.model.order.dao;
+package purch.model.dao;
 
 public interface OrderDAO {
 

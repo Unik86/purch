@@ -1,4 +1,4 @@
-package purch.model.supply.dao;
+package purch.model.dao;
 
 public class SupplyDAOImp {
 
